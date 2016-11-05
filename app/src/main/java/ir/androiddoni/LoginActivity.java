@@ -18,7 +18,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText edt_username,edt_password;
     CheckBox chk_save;
     Button btn_login,btn_exit;
-
+//test
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

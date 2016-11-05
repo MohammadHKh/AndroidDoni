@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ir.androiddoni.activity.AboutActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/img_app"
+                android:src="@mipmap/aparat"
+                android:layout_margin="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="@dimen/width_picture"
+                android:layout_height="@dimen/width_picture" />
+
+            <TextView
+                android:id="@+id/txt_app"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/img_app"
+                android:text="Aparat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <RatingBar
+                android:layout_below="@+id/txt_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder.Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder.Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder.Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder.Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder.Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder.Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder.Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder.Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder.Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder.Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder.Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder.Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder.Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder.Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder.Right now, i stores every xml layout file inside the layout folder, so it is feasible and simple to manage small projects, but when there is a case of large and heavy projects, then there should be a hierarchy and sub-folders needed inside the layout folder."
+
+                    />
+
+
+
+            </RelativeLayout>
+
+
+
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

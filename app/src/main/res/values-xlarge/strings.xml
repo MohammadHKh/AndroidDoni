@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">اندروید دونی</string>
+
+    <string name="login">Login Form</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="save">save</string>
+    <string name="login_button">Login</string>
+    <string name="exit">exit</string>
+    <string name="call">call</string>
+    <string name="search">search</string>
+    <string name="contact">contact</string>
+
+    <string name="about">About us</string>
+    <string name="communication">communication</string>
+    <string name="apps">Apps</string>
+    <string name="category">category</string>
+    <string name="m_setting">setting</string>
+    <string name="my_name">Android developer</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="exit_dialog">Exit</string>
+    <string name="exit_msg">Are you agree?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">cancel</string>
+</resources>

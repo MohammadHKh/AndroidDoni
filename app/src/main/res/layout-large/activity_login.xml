@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.androiddoni.LoginActivity">
+
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_color"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            style="@style/myinputs"
+            android:id="@+id/edt_username"
+            android:layout_below="@+id/txt_login"
+            android:hint="@string/username" />
+
+        <CheckBox
+            android:id="@+id/chk_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_password"
+            android:textSize="22sp"
+            android:text="@string/save" />
+
+        <Button
+            style="@style/mybuttons"
+            android:id="@+id/btn_login"
+            android:layout_below="@+id/chk_save"
+            android:text="@string/login_button" />
+
+        <Button
+            style="@style/mybuttons"
+            android:id="@+id/btn_exit"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/chk_save"
+            android:text="@string/exit" />
+
+        <EditText
+            style="@style/myinputs"
+            android:id="@+id/edt_password"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:layout_below="@+id/edt_username"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/txt_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/amber_800"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textSize="26sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

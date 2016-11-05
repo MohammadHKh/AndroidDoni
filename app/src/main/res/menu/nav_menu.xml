@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_all_apps"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/apps" />
+    <item
+
+        android:id="@+id/item_category"
+        android:icon="@android:drawable/ic_dialog_alert"
+
+        android:title="@string/category" />
+    <item
+        android:id="@+id/item_call"
+        android:icon="@android:drawable/ic_menu_search"
+
+        android:title="@string/call" />
+    <item
+        android:id="@+id/item_contact"
+        android:icon="@android:drawable/ic_menu_search"
+
+        android:title="@string/contact" />
+
+    <item
+        android:id="@+id/item_login"
+        android:icon="@android:drawable/ic_menu_search"
+
+        android:title="@string/login_button" />
+
+
+    <item android:title="@string/communication">
+        <menu>
+
+            <item
+                android:id="@+id/item_setting"
+                android:icon="@android:drawable/ic_menu_search"
+
+                android:title="@string/m_setting" />
+            <item
+                android:id="@+id/item_exit"
+
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="@string/exit" />
+
+        </menu>
+    </item>
+
+
+</menu>
